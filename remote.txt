@@ -7,26 +7,8 @@ echo target >> .gitignore (beszúrja a "target" szöveget a .gitignore fájlban 
 
 Másold be a training-solutions mappádat a cd C:\training\java-sv2-labs mappába
 
-
-
-
-//
-cd C:\training\java-sv2-labs (belépsz a mappába)
-git init (inicializálsz egy helyi git repositoryt)
-git status (elhagyható, de ellenőrzésre jó)
-
-Készíts egy .gitignore fájlt:
-
-echo idea > .gitignore
-echo *.iml >> .gitignore
-echo target >> .gitignore 
-
-git add . (hozzáadod a mappában lévő fájlokat a helyi git repóhoz)
-git commit -m "Initial commit" (az első commit)
-git remote add origin https://github.com/deekev/java-sv2-labs.git (hozzáadod a távoli repót)
-git branch -M main
-git status (ismét csak ellenőrzés, elhagyható)
-git pull
-git push
+git add . (minden módosított fájlt hozzáadsz)
+git commit -m "Valamilyen commitszöveg" (létrehozod a commitot)
+git push (a módosításokat elküldöd az origin repóba)
 
 Frissítsd a böngészőben a github repository-d oldalát, és ellenőrizd le, hogy minden rendben van-e?
