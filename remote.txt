@@ -8,6 +8,7 @@ echo target >> .gitignore (beszúrja a "target" szöveget a .gitignore fájlban 
 Másold be a training-solutions mappádat a cd C:\training\java-sv2-labs mappába
 
 git add . (minden módosított fájlt hozzáadsz)
+git status (nem kötelező, de én gyakran használom ezt a parancsot ellenőrzésre)
 git commit -m "Valamilyen commitszöveg" (létrehozod a commitot)
 git push (a módosításokat elküldöd az origin repóba)
 
